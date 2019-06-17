@@ -18,3 +18,4 @@ INSERT INTO candle_shop VALUES(015, "Dreamed a Little Dream",'Lilac-Rose-Vanilla
  
 SELECT * FROM candle_shop GROUP BY price;
 SELECT name, size, price, sales, (price* sales)from candle_shop;
+SELECT sales, SUM(sales) FROM candle_shop;
